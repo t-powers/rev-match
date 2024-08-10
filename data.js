@@ -36,7 +36,6 @@ export const vehicleData = [
    - Mercedes-Benz G-Class (G-Wagon)
    - Lamborghini Urus
 
-
 4. **Practical**
    - Tesla Model X Plaid
    - Porsche Taycan Turbo S
@@ -77,8 +76,6 @@ export const vehicleData = [
     - Lamborghini Huracán Evo Spyder
     - McLaren 570S Spider
 
-
-
 14. **Restless**
     - Ducati Panigale V4
     - Ferrari F12 Berlinetta
@@ -93,7 +90,6 @@ export const vehicleData = [
     - Lamborghini Urus
     - Maserati Levante Trofeo
     - Range Rover SVAutobiography
-
 
 18. **Eclectic**
     - Pagani Huayra
