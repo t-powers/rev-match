@@ -1,4 +1,4 @@
-vehicleData = [
+export const vehicleData = [
   {
     emotionTags: ["laid-back"],
     image: "bentley.jpg",
