@@ -19,16 +19,16 @@
   </head>
   <body>
     <header>
-      <div class="header-el">
+      <section class="header-el">
         <img src="images/coverLambo.jpg" width="auto" height="300" />
         <div>
           <h1>RevMatch</h1>
           <h2>A car for any vibe. Choose, and roll.</h2>
         </div>
-      </div>
+      </section>
     </header>
     <main>
-      <div class="controls-container">
+      <section class="controls-container">
         <h3>Select your mood.</h3>
         <div
           type="radio"
@@ -40,13 +40,15 @@
         >
         <input type="checkbox" id="car-selection" class="car-selection" />
         <button class="get-image-btn" id="get-image-btn">Find The Car</button>
-      </div>
+      </section>
     </main>
-    <div class="image-modal" id="image-modal">
+
+    <!-- modal section -->
+    <section class="image-modal" id="image-modal">
       <button class="image-modal-close-btn" id="image-modal-close-btn">
         <span class="material-symbols-outlined"> close </span>
       </button>
       <div id="image-modal-inner"></div>
-    </div>
+    </section>
   </body>
 </html>
