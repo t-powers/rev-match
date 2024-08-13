@@ -1,10 +1,14 @@
-html {
+html,
+body {
+  margin: 0;
+  padding: 0;
   font-family: "Italiana", sans-serif;
   font-weight: 400;
   font-style: normal;
   background-color: #f2c32f;
 }
 
+/* typography */
 h1 {
   font-size: 45px;
 }
@@ -14,12 +18,16 @@ h2 {
 h3 {
   font-size: 26px;
 }
+
+/* layout */
 .hyper-only-image {
   font-size: 20px;
 }
 .car-selection {
   transform: scale(1.5);
 }
+
+/* controls */
 .get-image-btn {
   font-size: 20px;
 }
