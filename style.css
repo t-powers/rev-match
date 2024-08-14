@@ -20,6 +20,22 @@ h3 {
 }
 
 /* layout */
+.top-section {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+}
+.main-image {
+  width: 180px;
+  margin: 0 auto;
+}
+.h-elements {
+  border: 1px solid red;
+  width: fit-content;
+  text-align: center;
+  margin: 0 auto;
+  text-wrap: wrap;
+}
 .hyper-only-image {
   font-size: 20px;
 }
