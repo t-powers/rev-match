@@ -10,31 +10,27 @@ body {
 
 /* typography */
 h1 {
-  font-size: 45px;
-}
-h2 {
   font-size: 32px;
 }
+h2 {
+  font-size: 28px;
+}
 h3 {
-  font-size: 26px;
+  font-size: 22px;
 }
 
 /* layout */
 .top-section {
-  border: 1px solid red;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  padding: 0px 100px
 }
 .main-image {
   width: 180px;
-  margin: 0 auto;
 }
 .h-elements {
   border: 1px solid red;
-  width: fit-content;
   text-align: center;
-  margin: 0 auto;
-  text-wrap: wrap;
 }
 .hyper-only-image {
   font-size: 20px;
@@ -46,4 +42,14 @@ h3 {
 /* controls */
 .get-image-btn {
   font-size: 20px;
+}
+
+.controls-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-modal {
+  display: none;
 }
