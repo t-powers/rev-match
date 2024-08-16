@@ -7,7 +7,9 @@ function getEmotionArray(cars) {
   const tagArray = [];
   for (let car of cars) {
     for (let tag of car.emotionTags) {
-      console.log(tag);
+      if (!tagArray.includes(tag)) {
+        tagArray.push(tag);
+      }
     }
   }
   return tagArray;
@@ -17,8 +19,8 @@ function renderEmotionsArray(cars) {
   let arrayString = ``;
   const emotions = getEmotionArray(cars);
   for (let emotion of emotions) {
-    arrayString.push(emotion);
+    arrayString += `<p>${emotion}</p>`;
   }
-  
+  emotionRadios.innerHTML = arrayString;
 }
 renderEmotionsArray(vehicleData);
