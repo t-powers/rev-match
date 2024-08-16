@@ -12,10 +12,3 @@ function getEmotionArray(cars) {
   }
   return tagArray;
 }
-
-/*
-
-
-
-
-*/
