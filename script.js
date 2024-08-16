@@ -12,3 +12,13 @@ function getEmotionArray(cars) {
   }
   return tagArray;
 }
+
+function renderEmotionsArray(cars) {
+  let arrayString = ``;
+  const emotions = getEmotionArray(cars);
+  for (let emotion of emotions) {
+    arrayString.push(emotion);
+  }
+  
+}
+renderEmotionsArray(vehicleData);
