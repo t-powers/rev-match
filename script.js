@@ -2,7 +2,7 @@ import { vehicleData } from "./data.js";
 
 const emotionRadios = document.getElementById("emotion-radios");
 
-//push unique emotions to new array, return that array
+//push unique emotions to tagArray
 function getEmotionArray(cars) {
   const tagArray = [];
   for (let car of cars) {
@@ -15,6 +15,7 @@ function getEmotionArray(cars) {
   return tagArray;
 }
 
+//using getEmotionArray function, render emotions to DOM
 function renderEmotionsArray(cars) {
   let arrayString = ``;
   const emotions = getEmotionArray(cars);
