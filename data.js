@@ -1,40 +1,59 @@
 export const vehicleData = [
   {
     emotionTags: ["laid-back"],
-    image: "bentley.jpg",
+    image: "images/bentley.jpg",
     alt: "Black shiny Bentley convertible",
   },
   {
     emotionTags: ["laid-back"],
-    image: "rolls royce dawn.jpg",
+    image: "images/rolls royce dawn.jpg",
     alt: "Black shiny Rolls Royce convertible",
   },
   {
     emotionTags: ["laid-back"],
-    image: "mercedes maybach.jpg",
+    image: "images/mercedes maybach.jpg",
     alt: "Black and maroon shiny Mercedes Maybach",
   },
   {
     emotionTags: ["energetic"],
-    image: "ferrari 1.jpg",
+    image: "images/ferrari 1.jpg",
     alt: "Bright red Ferrari sports car",
   },
   {
     emotionTags: ["energetic"],
-    image: "lamborghini 1.jpg",
+    image: "images/lamborghini 1.jpg",
     alt: "Orange Lamborghini with opened doors",
   },
   {
     emotionTags: ["energetic"],
-    image: "ferrari f40.jpg",
+    image: "images/ferrari f40.jpg",
     alt: "Pretty red Ferrari F40 with aircraft in background",
+  },
+  {
+    emotionTags: ["adventurous"],
+    image: "images/land rover.jpg",
+    alt: "Shiny and black colored two door Land Rover Defender",
+  },
+  {
+    emotionTags: ["adventurous"],
+    image: "images/Mercedes_G-Class.jpg",
+    alt: "Shiny and black Mercedes G Wagon",
+  },
+  {
+    emotionTags: ["adventurous"],
+    image: "images/lamborghini-urus.jpg",
+    alt: "Bright white Lamborghini Urus suv",
   },
 ];
 
-/*1. **Adventurous**
-   - Land Rover Defender
-   - Mercedes-Benz G-Class (G-Wagon)
-   - Lamborghini Urus
+/*
+{
+emotionTags:
+image:
+alt:
+}
+
+
 
 
 4. **Practical**
