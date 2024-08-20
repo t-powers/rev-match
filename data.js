@@ -2,46 +2,55 @@ export const vehicleData = [
   {
     emotionTags: ["laid-back"],
     image: "images/bentley.jpg",
+    isHyper: false,
     alt: "Black shiny Bentley convertible",
   },
   {
     emotionTags: ["laid-back"],
     image: "images/rolls royce dawn.jpg",
+    isHyper: false,
     alt: "Black shiny Rolls Royce convertible",
   },
   {
     emotionTags: ["laid-back"],
     image: "images/mercedes maybach.jpg",
+    isHyper: false,
     alt: "Black and maroon shiny Mercedes Maybach",
   },
   {
     emotionTags: ["energetic"],
     image: "images/ferrari 1.jpg",
+    isHyper: false,
     alt: "Bright red Ferrari sports car",
   },
   {
     emotionTags: ["energetic"],
     image: "images/lamborghini 1.jpg",
+    isHyper: false,
     alt: "Orange Lamborghini with opened doors",
   },
   {
     emotionTags: ["energetic"],
     image: "images/ferrari f40.jpg",
+    isHyper: false,
     alt: "Pretty red Ferrari F40 with aircraft in background",
   },
   {
     emotionTags: ["adventurous"],
     image: "images/land rover.jpg",
+    isHyper: false,
     alt: "Shiny and black colored two door Land Rover Defender",
   },
   {
     emotionTags: ["adventurous"],
     image: "images/Mercedes_G-Class.jpg",
+    isHyper: false,
     alt: "Shiny and black Mercedes G Wagon",
   },
   {
     emotionTags: ["adventurous"],
     image: "images/lamborghini-urus.jpg",
+    isHyper: false,
     alt: "Bright white Lamborghini Urus suv",
   },
 ];
