@@ -1,18 +1,18 @@
 export const vehicleData = [
   {
-    emotionTags: ["laid-back"],
+    emotionTags: ["laid-back", "luxury"],
     image: "images/bentley.jpg",
     isHyper: false,
     alt: "Black shiny Bentley convertible",
   },
   {
-    emotionTags: ["laid-back"],
+    emotionTags: ["laid-back","luxury"],
     image: "images/rolls royce dawn.jpg",
     isHyper: false,
     alt: "Black shiny Rolls Royce convertible",
   },
   {
-    emotionTags: ["laid-back"],
+    emotionTags: ["laid-back","luxury"],
     image: "images/mercedes maybach.jpg",
     isHyper: false,
     alt: "Black and maroon shiny Mercedes Maybach",
