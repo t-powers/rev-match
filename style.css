@@ -23,10 +23,12 @@ h3 {
 .top-section {
   display: flex;
   justify-content: center;
-  padding: 0px 100px;
+  padding: 10px 100px;
+  border-radius: 7px;
 }
 .main-image {
   width: 180px;
+  border-radius: 7px;
 }
 .h-elements {
   text-align: center;
