@@ -7,6 +7,8 @@ const imageModal = document.getElementById("image-modal");
 const imageModalInner = document.getElementById("image-modal-inner");
 const modalCloseBtn = document.getElementById("image-modal-close-btn");
 
+
+
 //push unique emotions to tagArray
 function getEmotionArray(cars) {
   const tagArray = [];
