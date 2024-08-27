@@ -1,6 +1,11 @@
 import { vehicleData } from "./data.js";
 
 const emotionRadios = document.getElementById("emotion-radios");
+const getImageBtn = document.getElementById("get-image-btn");
+const onlyHyper = document.getElementById("hyper-only-image");
+const imageModal = document.getElementById("image-modal");
+const imageModalInner = document.getElementById("image-modal-inner");
+const modalCloseBtn = document.getElementById("image-modal-close-btn");
 
 //push unique emotions to tagArray
 function getEmotionArray(cars) {
