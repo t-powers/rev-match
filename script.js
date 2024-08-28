@@ -13,9 +13,7 @@ function highlightRadios(e) {
   for (let radio of radios) {
     radio.classList.remove("highlight");
   }
-  document
-    .getElementById("e.target.id")
-    .parentElement.classList.add("highlight");
+  document.getElementById(e.target.id).parentElement.classList.add("highlight");
 }
 
 //push unique emotions to tagArray
