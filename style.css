@@ -60,3 +60,10 @@ h3 {
   width: 80%;
   text-align: center;
 }
+
+.highlight {
+  background-color: #fff0ee;
+  color: #bd301d;
+  font-weight: bold;
+  accent-color: #bd301d;
+}

@@ -7,7 +7,16 @@ const imageModal = document.getElementById("image-modal");
 const imageModalInner = document.getElementById("image-modal-inner");
 const modalCloseBtn = document.getElementById("image-modal-close-btn");
 
-
+//highlight radio buttons
+function highlightRadios(e) {
+  const radios = document.getElementsByClassName("radios");
+  for (let radio of radios) {
+    radio.classList.remove("highlight");
+  }
+  document
+    .getElementById("e.target.id")
+    .parentElement.classList.add("highlight");
+}
 
 //push unique emotions to tagArray
 function getEmotionArray(cars) {
