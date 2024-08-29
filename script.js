@@ -13,7 +13,7 @@ modalCloseBtn.addEventListener("click", closeModal);
 
 //close modal
 function closeModal() {
-  modalCloseBtn.style.display = "none";
+  imageModal.style.display = "none";
 }
 
 //highlight radio buttons
