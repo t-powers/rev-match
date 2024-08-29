@@ -30,8 +30,17 @@ function getMatchingCarsArray() {
     const selectedEmotion = document.querySelector(
       'input[type="radio"]:checked'
     ).value;
+    const onlyHyper = onlyHyper.checked;
+
+    const matchingCarArray = carsData.filter(function (car) {
+      if (isGif) {
+        return car.emotionTags.includes(selectedEmotion) && car.isGif;
+      } else {
+        return car.emotionTags.includes(selectedEmotion);
+      }
+    });
+    return matchingCarArray;
   }
-  const onlyHyper = onlyHyper.checked;
 }
 
 //push unique emotions to tagArray
