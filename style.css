@@ -51,9 +51,10 @@ h3 {
   align-items: center;
 }
 
-.image-modal {
+/* .image-modal {
   display: none;
-}
+} */
+
 .emotion-radios {
   font-size: 28px;
   padding: 0px 0px 20px;
