@@ -8,6 +8,8 @@ const imageModalInner = document.getElementById("image-modal-inner");
 const modalCloseBtn = document.getElementById("image-modal-close-btn");
 
 emotionRadios.addEventListener("change", highlightRadios);
+modalCloseBtn.addEventListener("click"); //add modal close function);
+getImageBtn.addEventListener("click"); //add image button function
 
 //highlight radio buttons
 function highlightRadios(e) {
