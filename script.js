@@ -25,6 +25,15 @@ function highlightRadios(e) {
   document.getElementById(e.target.id).parentElement.classList.add("highlight");
 }
 
+function getMatchingCarsArray() {
+  if (document.querySelector('input[type="radio"]:checked')) {
+    const selectedEmotion = document.querySelector(
+      'input[type="radio"]:checked'
+    ).value;
+  }
+  const onlyHyper = onlyHyper.checked;
+}
+
 //push unique emotions to tagArray
 function getEmotionArray(cars) {
   const tagArray = [];
