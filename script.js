@@ -27,13 +27,13 @@ function highlightRadios(e) {
 
 function renderVehicleToDOM() {
   const randomObject = randomVehicle();
-  randomObject.innerHTML = `
+  imageModalInner.innerHTML = `
         <img 
         class="car-img" 
         src="./images/${randomObject.image}"
         alt="${randomObject.alt}"
         >`;
-  imageModal.style.display = "flex";
+  imageModalInner.style.display = "flex";
 }
 
 function randomVehicle() {
