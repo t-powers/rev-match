@@ -30,7 +30,7 @@ function renderVehicleToDOM() {
   imageModalInner.innerHTML = `
         <img 
         class="car-img" 
-        src="./images/${randomObject.image}"
+        src="images/${randomObject.image}" 
         alt="${randomObject.alt}"
         >`;
   imageModalInner.style.display = "flex";
