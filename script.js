@@ -25,6 +25,16 @@ function highlightRadios(e) {
   document.getElementById(e.target.id).parentElement.classList.add("highlight");
 }
 
+function randomVehicle(){
+  const matchingCars = getMatchingCarsArray()
+  matchingCars.innerHTML = `
+        <img 
+        class="car-img" 
+        src="./images/${catObject.image}"
+        alt="${catObject.alt}"
+        >`;
+}
+
 function getMatchingCarsArray() {
   if (document.querySelector('input[type="radio"]:checked')) {
     const selectedEmotion = document.querySelector(

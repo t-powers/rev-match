@@ -52,6 +52,19 @@ h3 {
 }
 
 .image-modal {
+    display: none; /*flex when displayed*/
+  position: fixed;
+  margin: auto;
+  top: 80px;
+  left: 0;
+  right: 0;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #67595e;
+  border-radius: 5px;
+  width: 420px;
+  height: 490px;
+  background-color: #fff0ee;
 }
 
 .emotion-radios {
@@ -66,4 +79,9 @@ h3 {
   color: #bd301d;
   font-weight: bold;
   accent-color: #bd301d;
+}
+.car-img {
+  max-width: 340px;
+  max-height: 420px;
+  border-radius: 5px;
 }
