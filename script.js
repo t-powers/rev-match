@@ -9,7 +9,7 @@ const modalCloseBtn = document.getElementById("image-modal-close-btn");
 
 emotionRadios.addEventListener("change", highlightRadios);
 modalCloseBtn.addEventListener("click", closeModal);
-//getImageBtn.addEventListener("click"); //add image button function
+getImageBtn.addEventListener("click", renderVehicleToDOM);
 
 //close modal
 function closeModal() {
@@ -25,14 +25,25 @@ function highlightRadios(e) {
   document.getElementById(e.target.id).parentElement.classList.add("highlight");
 }
 
-function randomVehicle(){
-  const matchingCars = getMatchingCarsArray()
-  matchingCars.innerHTML = `
+function renderVehicleToDOM() {
+  const randomObject = randomVehicle();
+  randomObject.innerHTML = `
         <img 
         class="car-img" 
-        src="./images/${catObject.image}"
-        alt="${catObject.alt}"
+        src="./images/${randomObject.image}"
+        alt="${randomObject.alt}"
         >`;
+  imageModal.style.display = "flex";
+}
+
+function randomVehicle() {
+  const matchingCars = getMatchingCarsArray();
+  if (matchingCars.length === 1) {
+    return matchingCars[0];
+  } else {
+    const randomNumber = Math.floor(Math.random() * matchingCars.length);
+    return matchingCars[randomNumber];
+  }
 }
 
 function getMatchingCarsArray() {

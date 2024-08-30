@@ -52,7 +52,7 @@ h3 {
 }
 
 .image-modal {
-    display: none; /*flex when displayed*/
+  display: none; /*flex when displayed*/
   position: fixed;
   margin: auto;
   top: 80px;
