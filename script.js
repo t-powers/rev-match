@@ -61,7 +61,6 @@ function getMatchingCarsArray() {
     const onlyHyperChecked = onlyHyper.checked;
 
     const matchingCarArray = vehicleData.filter(function (car) {
-      // Use onlyHyperChecked instead of isGif
       return (
         car.emotionTags.includes(selectedEmotion) &&
         (!onlyHyperChecked || car.isGif)
@@ -69,7 +68,7 @@ function getMatchingCarsArray() {
     });
     return matchingCarArray;
   }
-  return []; // Return an empty array if no radio is checked
+  return []; 
 }
 
 // Push unique emotions to tagArray
