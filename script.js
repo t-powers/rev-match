@@ -36,7 +36,7 @@ function renderVehicleToDOM() {
           src="images/${randomObject.image}" 
           alt="${randomObject.alt}"
           >`;
-    imageModal.style.display = "flex"; // Show modal
+    imageModal.style.display = "flex";
   } else {
     console.error("No matching vehicle found.");
   }
@@ -46,7 +46,7 @@ function renderVehicleToDOM() {
 function randomVehicle() {
   const matchingCars = getMatchingCarsArray();
   if (matchingCars.length === 0) {
-    return null; // Return null if no matching cars
+    return null;
   }
   const randomNumber = Math.floor(Math.random() * matchingCars.length);
   return matchingCars[randomNumber];
@@ -64,7 +64,7 @@ function getMatchingCarsArray() {
       return (
         car.emotionTags.includes(selectedEmotion) &&
         (!onlyHyperChecked || car.isGif)
-      ); // Apply filter based on checkbox
+      ); 
     });
     return matchingCarArray;
   }
